@@ -1,0 +1,93 @@
+﻿body {
+    background-color:honeydew;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a {
+    text-decoration:none;
+}
+    a:hover {
+        color:#a052f8;
+    }
+    .butonGorsel{
+        background-color:cornflowerblue;
+            width:100px;
+            height:25px;
+            color:#ffffff;
+    }
+    .butonGorsel:hover{
+        background-color:cornflowerblue;
+    }
+    .textboxGorsel{
+        width:150px;
+        height:25px;
+        border:1px dotted cornflowerblue;
+    }
+    .dropdownlistGorsel{
+        height:25px;
+        width:auto;
+        border:1px dotted cornflowerblue;
+
+    }
+
+
+.kutu {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+    .kutu .slider {
+        width: 1000px;
+        height: 100px;
+        float: left;
+        background-color: cornflowerblue;
+    }
+
+
+    .kutu .govde {
+        width: 1000px;
+        height: auto;
+        float: left;
+        margin-top: 20px;
+    }
+
+        .kutu .govde .govdesol {
+            width: 270px;
+            height: auto;
+            float: left;
+        }
+
+            .kutu .govde .govdesol .govdesolbaslik {
+                width: 100%;
+                height: 30px;
+                float: left;
+                background-color: cornflowerblue;
+                color:#ffffff;
+                line-height:30px;
+            }
+
+            .kutu .govde .govdesol .govdesolicerik {
+                width: 100%;
+                float: left;
+                height: auto;
+                border: 1px dotted cornflowerblue;
+            }
+
+        .kutu .govde .govdesag {
+            width: 700px;
+            height: auto;
+            float: right;
+            border: 1px dotted cornflowerblue;
+        }
+
+    .kutu .alt {
+        width: 100%;
+        height: 40px;
+        float: left;
+        background-color: cornflowerblue;
+        margin-top: 20px;
+    }
